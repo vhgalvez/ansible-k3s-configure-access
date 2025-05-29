@@ -35,7 +35,7 @@ Sigue estos pasos para ejecutar el playbook:
 2. Ejecuta el siguiente comando desde la raíz del repositorio:
 
    ```bash
-   ansible-playbook -i inventory/hosts.ini playbooks/configure_k3s_access.yml
+   sudo ansible-playbook -i inventory/hosts.ini playbooks/install_access.yml
    ```
 
 ---
