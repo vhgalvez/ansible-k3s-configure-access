@@ -1,4 +1,4 @@
-# playbooks\configure_k8s_access.yml
+# playbooks\configure_k3s_access.yml
 ---
 - name: Configurar acceso al clúster Kubernetes desde el nodo controlador
   hosts: controller
