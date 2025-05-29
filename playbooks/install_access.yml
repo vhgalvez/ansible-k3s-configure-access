@@ -1,3 +1,4 @@
 # playbooks\install_access.yml
-- import_playbook: 01_generate_token.yml
-- import_playbook: 02_configure_k3s_access.yml
+- import_playbook: 02_install_kubectl.yml
+- import_playbook: 02_generate_token.yml
+- import_playbook: 03_configure_k3s_access.yml

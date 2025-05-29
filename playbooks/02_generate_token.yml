@@ -1,4 +1,4 @@
-# playbooks\01_generate_token.yml
+# playbooks\02_generate_token.yml
 ---
 - name: 🔐 1 - Generar token JWT en master con permisos adecuados
   hosts: masters[0]
