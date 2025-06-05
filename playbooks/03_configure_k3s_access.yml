@@ -8,7 +8,7 @@
   vars:
     kubeconfig_path: "/home/victory/.kube/config"
     kubeconfig_token_path: "/home/victory/.kube/token.jwt"
-    vip_kubernetes: "10.17.5.10"
+    vip_kubernetes: "192.168.0.32"
     kubectl_path: "/usr/local/bin/kubectl"
 
   pre_tasks:
